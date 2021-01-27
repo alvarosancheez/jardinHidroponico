@@ -79,8 +79,9 @@ void setup()
 
 
 void loop() {
-   // esp_sleep_enable_timer_wakeup(uS_TO_S_FACTOR*TIME_TO_SLEEP);
-   // Serial.println("ESP SE DESPIERTA");
+  // Descomentar estas dos líneas de código para que el ESP hiberne
+  // esp_sleep_enable_timer_wakeup(uS_TO_S_FACTOR*TIME_TO_SLEEP);
+  // Serial.println("ESP SE DESPIERTA");
   // reads the input on analog pin A0 (value between 0 and 1023)
       if (!tb.connected()) {
   // Connect to the ThingsBoard
