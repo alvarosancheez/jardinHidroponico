@@ -97,9 +97,12 @@ void loop() {
   //Leemos del sensor de Temperatura y Humedad
   readDHT();
 
-  //Leemos del sensor de 
+  //Leemos del sensor de luminosidad
   readLuminosidad();
+  
+  //Leemos del sensor de agua
   SensorDeAgua();
+  
   //Serial.println("ESP SE DUERME");
   //esp_deep_sleep_start();
   
