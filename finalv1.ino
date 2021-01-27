@@ -103,6 +103,7 @@ void loop() {
   //Leemos del sensor de agua
   SensorDeAgua();
   
+  //Descomentar estas líneas de código para que el ESP hiberne
   //Serial.println("ESP SE DUERME");
   //esp_deep_sleep_start();
   
